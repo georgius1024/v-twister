@@ -37,7 +37,15 @@ const randomItem = (list) => {
 const twist = () => {
   limb.value = randomItem(["hand", "foot"]);
   side.value = randomItem(["left", "right"]);
-  color.value = randomItem(["red", "green", "blue", "black", "yellow", "pink"]);
+  color.value = randomItem([
+    "red",
+    "green",
+    "blue",
+    "black",
+    "yellow",
+    "pink",
+    "orange",
+  ]);
 };
 </script>
 <style lang="scss" scoped>
